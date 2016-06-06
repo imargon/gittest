@@ -1,0 +1,22 @@
+1. create a new repository on the command line
+
+echo "# gittest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/imargon/gittest.git
+git push -u origin master
+
+2.push an existing repository from the command line
+
+git remote add origin https://github.com/imargon/gittest.git
+git push -u origin master
+
+3.
+在Git Shell下输入命令测试公钥是否认证正确。
+ssh -T git@github.com
+
+参考：
+#:http://lazynight.me/2898.html
+#:http://www.cnblogs.com/tugenhua0707/p/4050072.html
+#:http://1ke.co/course/194
