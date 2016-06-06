@@ -2,3 +2,4 @@ DEBUG:root:写进去
 INFO:root:滚进去
 WARNING:root:也滚进去
 11111
+22222
