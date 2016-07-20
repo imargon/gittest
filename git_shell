@@ -15,6 +15,16 @@ git push -u origin master
 解决办法：
 git remote rm origin
 
+错误提示:hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+解决办法：
+git pull https://github.com/imargon/gittest.git
+git push https://github.com/imargon/gittest.git
+
 
 3.
 在Git Shell下输入命令测试公钥是否认证正确。
