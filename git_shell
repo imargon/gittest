@@ -1,3 +1,18 @@
+git config --global user.name "imargon" //给自己起个用户名
+git config --global user.email  "xxx@gmail.com " //填写自己的邮箱
+ssh-keygen -t rsa -C "xxx@gmail.com"
+ssh -T git@github.com
+
+git clone git_url
+git add . // 要add的文件，. 表示添加所有
+git commit -m 'add files' // 提交更新
+git push origin master  // push到远端master上
+
+# 删除缓存
+git rm -r --cached .
+git add .
+Git commit -m 'update .gitignore'
+
 1. create a new repository on the command line
 
 echo "# gittest" >> README.md
